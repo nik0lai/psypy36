@@ -40,3 +40,8 @@ pip install pyglet==1.4.4
 # Install git to get access to other psychopy versions
 conda install git --yes
 
+# install pyqt5 to use GUI
+pip install pyqt5
+
+# not sure what is this for
+conda install wxPython --yes
