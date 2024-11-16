@@ -45,3 +45,7 @@ pip install pyqt5
 
 # not sure what is this for
 conda install wxPython --yes
+
+# this may be necessary 
+# MESA-LOADER: failed to open radeonsi: /home/.../miniconda3/envs/psypy36/bin/../lib/libstdc++.so.6: version `GLIBCXX_3.4.30' not found (required by /opt/amdgpu/lib/x86_64-linux-gnu/libLLVM-17.so) (search paths /opt/amdgpu/lib/x86_64-linux-gnu/dri, suffix _dri)
+conda install -c conda-forge libffi
